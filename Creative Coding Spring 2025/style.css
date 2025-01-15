@@ -2,3 +2,10 @@ body
 {
   background-color: #AB0F29
 }
+
+sky
+{
+  postion:relative;
+  left: 100px
+  
+}
