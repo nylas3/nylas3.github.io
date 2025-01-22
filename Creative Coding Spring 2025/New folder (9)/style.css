@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #eaeaea;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #202020, #444444);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    color: #ff3366;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.portrait {
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #ff3366;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.video-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff3366;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 4px solid #ff3366;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.contact-item {
+    margin: 20px 0;
+}
+
+.contact-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #202020;
+    color: #eaeaea;
+    font-size: 0.9rem;
+}
